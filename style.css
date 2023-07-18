@@ -1,0 +1,955 @@
+img{
+	max-width: 100%
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+header{
+position: relative;
+}
+
+@font-face { 
+font-family: "Mattone"; 
+src: url('fonts/Mattone-150.woff') format('woff');
+}
+
+@font-face { 
+font-family: "Degular Variable"; 
+}
+
+
+.specific-kerning{
+  padding-left: 0.07em;
+}
+
+.aurorakerning{
+  letter-spacing: -0.02em;
+}
+
+
+h1 {
+  font-size: 8.9vw;
+  font-family: degular-variable, sans-serif;
+  font-variation-settings: "ital" 0, "opsz" 14, "wght" 330;
+  text-align: center;
+  display: inline;
+  padding: 4vw 4vh;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 0.78em;
+  margin: 0;
+  text-fill-color: transparent;
+  filter: blur(10px);
+  transition: 0.8s all;
+}
+
+
+
+.headline-container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1:hover{
+    filter: blur(0);
+}
+
+
+body {
+margin:0;
+background: #07091F;
+width: 100%;
+}
+
+p{
+font-family: "mr-eaves-modern", sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 32px;
+line-height: 90%;
+letter-spacing: 0em;
+color: white;
+}
+
+
+
+.opentext{
+	max-width: 82%;
+}
+
+.open{
+margin-top: 45%;
+max-width: 78%;
+}
+
+.note {
+font-family: "mr-eaves-modern", sans-serif;
+color: white;
+font-size: 32px;
+font-weight: 100;
+line-height: 28px;
+letter-spacing: 0.06em;
+text-align: left;
+margin: 0;
+margin-bottom: -1%;
+display: inline;
+}
+
+
+.whitehr{
+  border-width: 0.9px;
+  border-color: white;
+  width: 2%; 
+  margin-right: 1%; 
+  display: inline-block;
+}
+
+
+.whitenote{
+font-family: "mr-eaves-modern", sans-serif;
+color: white;
+font-size: 32px;
+font-weight: 100;
+line-height: 28px;
+letter-spacing: 0.06em;
+text-align: left;
+margin: 0;
+margin-bottom: -1%;
+display: inline;
+}
+
+h6{
+font-family: "mr-eaves-modern", sans-serif;
+font-size: 16px;
+font-weight: 200;
+line-height: 19px;
+letter-spacing: 0.06em;
+text-align: left;
+color: white;
+margin: 0;
+margin-top: 10px;
+opacity: 0.5;
+}
+
+
+
+.bold{
+font-family: "mr-eaves-modern", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.06em;
+text-align: left;
+color: white;
+text-transform: uppercase;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*background-image: none;*/
+  position: relative;
+  background: linear-gradient(#FFF 0vh, #07091F 100vh);;
+}
+
+
+.section0{
+position: realtive;
+
+}
+
+.iceberg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: none;
+	background: #07091F;
+}
+
+.iceberg img {
+	width: 100px;
+	margin-bottom: 40px;
+}
+
+img.smallice {
+	width: 130px;
+	margin-bottom: 100px;
+	margin-top: 0;
+}
+
+.col-5 {
+	width:41.6%;
+	margin-left: 8.3%;
+	padding: 0 15px;
+	position: relative;
+}
+
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rowend{
+	margin-top: 34%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-4{
+	width:41.5%;
+	margin-left: 8.3%;
+	padding: 0 15px;
+	position: relative;
+}
+
+
+.lights{
+	padding: 80px 0;
+	background-image: none;
+}
+
+.img1{
+	margin-top: 150px;
+	position: relative;
+}
+
+.img4{
+	margin-top: -30%;
+	position: relative;
+	width: 90%;
+}
+
+
+.hover-headline {
+		width: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+  }
+
+.headline-container:hover .hover-headline {
+  opacity: 1;
+  display: block;
+}
+
+
+h3{
+font-family: "mr-eaves-modern", sans-serif;
+font-weight: 400;
+text-align: center;
+text-transform: uppercase:;
+letter-spacing: 0.02em;
+line-height: 80%;
+margin: 0;
+}
+
+
+.hover-imagetwo {
+		width: 83.4%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+.hover-imagepurple {
+		width: 90%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.hover-image {
+		width: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+
+.img-container{
+	position: relative;
+	overflow: hidden;
+}
+
+.img-container:hover .hover-image {
+  opacity: 1;
+  display: block;
+}
+
+.img-container:hover .hover-imagetwo {
+  opacity: 1;
+  display: block;
+}
+
+.img-container:hover .hover-imagepurple {
+  opacity: 1;
+  display: block;
+}
+
+
+.hover-vertical {
+	margin-top: 150px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.img-container:hover .hover-vertical {
+  opacity: 1;
+}
+
+.ghostgiff{
+	margin: 150px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.img-container:hover .ghostgiff {
+  opacity: 1;
+}
+
+.purplegiff{
+	margin: 0;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.img-container:hover .purplegiff {
+  opacity: 1;
+  display: block;
+}
+
+.col-6{
+	width: 50%;
+	margin-top: 8.3%;
+	margin-left: 17%;
+	padding: 0 15px;
+	position: relative;
+}
+
+.col-3{
+	width: 24.9%;
+	margin-left: 4%;
+	padding: 0 15px;
+	position: relative;
+}
+
+.text-green {
+  width: 24.9%;
+  text-align: left;
+  margin-top: 0;
+  letter-spacing: 0.1em;
+  margin-bottom: 0;
+  position: absolute;
+  left: 64%;
+  transform: translate(0, 168%);
+}
+
+.text-pink {
+  width: 24.9%;
+  text-align: left;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  left: 12%;
+  transform: translate(0, -20%);
+}
+
+.text-red {
+  width: 16.6%;
+  text-align: left;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  left: 21%;
+  transform: translate(0, 524%);
+}
+
+.text-blue {
+  width: 25.2%;
+  text-align: left;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  left: 64%;
+  transform: translate(0, 590%);
+}
+
+
+.boldp{
+	font-weight: 300;
+}
+
+.beauty {
+	padding: 80px 0;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	background-image: none;
+}
+
+.col-4 p {
+	max-width: 90%;
+}
+
+.sun{
+}
+
+h2{
+	font-family: "mr-eaves-modern", sans-serif;
+	font-size: 110px;
+	font-weight: 700;
+	line-height: 86%;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.02em;
+  word-spacing: 0em;
+	justify-content: center;
+  align-items: center;
+  margin-left: 8.3%;
+  margin-right: 8.3%;
+}
+
+.sun{
+	position: relative;
+	/*background: linear-gradient(#07091F 0%, #FFF 40%, #424E80 100%);*/
+	background: linear-gradient(#07091F 0%, #FFFf 100%);
+}
+
+.bigcircle{
+    background-image: url(images/graincircle.png);
+    border-radius: 50%;
+    width: 130vw;
+    height: 130vw;
+    position: absolute;
+    top: -14%;
+    left: -15vw;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.surfacetext{
+	width: 60%;
+	display: flex;
+  flex-direction: column;
+	justify-content: center;
+}
+
+h4{
+	align-items: center;
+	color: white;
+	line-height: 80%;
+	font-size: 56px;
+	font-family: "mr-eaves-modern", sans-serif;
+	font-weight: 300;
+}
+
+.link{
+	align-items: center;
+	color: white;
+	line-height: 80%;
+	font-size: 56px;
+	font-family: "mr-eaves-modern", sans-serif;
+	opacity: 0.6;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.gradient {
+	margin-top: 60%;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 12%;
+}
+
+.giffcol-4{
+	width: 38%;
+}
+
+.anothercol-4{
+	width: 36%;
+	margin-left: 0%;
+	padding: 0px;
+	justify-content: center;;
+  display: flex;
+  align-items: center;
+}
+
+.colors{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	position: relative;
+	background: white;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+
+.electriccircle{
+	width:200%;
+	height: auto;
+	mix-blend-mode: multiply;
+}
+
+.anothercol-5 {
+	width:45%;
+	margin: 0%;
+	padding: 0 15px;
+	height: 100%;
+	justify-content: center;;
+  display: flex;
+  align-items: center;
+}
+
+
+.colorrcol-5 {
+	width: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.anothercol-3{
+	width: 24.9%;
+	margin:0;
+	margin-left: 4%;
+	justify-content: center;;
+  display: flex;
+  align-items: center;
+}
+
+.electric {
+	width: 90%;
+	justify-content: center;;
+  display: flex;
+  align-items: center;
+} 
+
+.particle{
+	color: #07091F;
+	font-size: 32px;
+	line-height: 90%;
+}
+
+	.text2 {
+		width:110% ;
+		color: #070A1F;
+	}
+
+	/*line-height: 80%;
+	font-size: 56px;
+	font-family: "mr-eaves-modern", sans-serif;
+	font-weight: 300;*/
+}
+
+
+
+@font-face { 
+font-family: "AlfaBravo"; 
+src: url('fonts/AlfaBravo-RegularItalic.woff') format('woff');
+}
+
+.quote {
+font-size: 24px;
+font-family: "AlfaBravo";
+font-style: Italic;
+line-height: 108%;
+letter-spacing: 0.095px;
+}
+
+.colorquote {
+font-size: 24px;
+font-family: "AlfaBravo";
+font-style: Italic;
+line-height: 108%;
+letter-spacing: 0.095px;
+color: #070A1F;
+}
+
+.colortext{
+	color: #070A1F;;
+}
+
+.day{
+	padding-top: 20%;
+	padding-bottom: 14%;
+	padding-left: 8.3%;
+	padding-right: 8.3%;
+	margin-top: 0%;
+	position: relative; 
+	background: linear-gradient(#FFFF 0%, #424E80 50%, #07091F 100%);
+	cursor: none;
+
+}
+
+.altitude{
+	background: linear-gradient(#07091F 0%, #07091F 30%, #424E80 100%);
+	padding-bottom: 14%;
+}
+
+.end{
+background: linear-gradient(#424E80 0%, #07091F 100%);
+padding-top: 4%;
+padding-bottom: 26%;
+padding-left: 8.3%;
+padding-right: 8.3%;
+}
+
+  .kilo{
+  	width: 8.3%;
+  color: #FFF;
+	font-size: 42px;
+	font-family: Mr Eaves Mod OT;
+	font-style: normal;
+	text-transform: lowercase;
+	font-weight: 300;
+	line-height: 90%;
+	letter-spacing: -0.42px;
+	margin-left: 1%;
+	line-height: 12%;
+  }
+
+li {
+  display: list-item;
+  text-align: inherit;
+  position: relative;
+}
+
+.list_line {
+  position: relative;
+  width: 1px;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.24);
+  display: block;
+  margin: 4rem auto;
+  right:4.2%;
+}
+
+.list_line::before {
+  top: -0.8rem;
+}
+
+.list_line::before,
+.list_line::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.5625rem;
+  height: 0.5625rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+
+
+.list_line::after {
+  bottom: -0.8rem;
+}
+
+
+.list_line-02 {
+  position: relative;
+  width: 1px;
+  height: 40vh;
+  background-color: rgba(255, 255, 255, 0.24);
+  display: block;
+  margin: 4rem auto;
+  right:4.2%;
+}
+
+.list_line-02::before {
+  top: -0.8rem;
+}
+
+.list_line-02::before,
+.list_line-02::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.5625rem;
+  height: 0.5625rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+
+
+.list_line-02::after {
+  bottom: -0.8rem;
+}
+
+
+.altcol-5 {
+  width: 45%;
+  margin: 0%;
+  margin-top: 16%;
+  margin-bottom: -13%;
+  padding: 0 15px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   justify-content: center;
+}
+
+
+.numlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num {
+  font-size: 40px;
+  letter-spacing: -0.01em;
+  font-weight: 300;
+}
+
+.list_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -38%;
+  margin-bottom: 1%;
+
+}
+
+.number-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number-wrapper h2 {
+  margin-right: 0.06em;
+  margin-bottom: 0;
+}
+
+.number-wrapper p {
+  margin: 0;
+  margin-top:0.4em;
+  line-height: inherit;
+}
+
+.number-wrapper.textleft{
+	margin: 0;
+  margin-right:4em;
+  position: absolute;
+}
+
+.height{
+	width: 10%;
+}
+
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background: #98aaf3;
+  border-radius: 50%;
+  position: absolute;
+  mix-blend-mode: screen;
+    */
+}
+
+.whiteonwhite{
+	/*color: #07091f;*/
+	color: #aebcf4;
+	font-size: 110px;
+	letter-spacing: 0.02em;
+  word-spacing: 0em;
+	justify-content: center;
+  align-items: center;
+  margin:0% ;
+  margin-top: 4%;
+
+}
+
+.flight{
+	font-size: 110px;
+	font-weight: 700;
+  letter-spacing: 0.02em;
+  word-spacing: 0em;
+  display: flex;
+  flaex-direction: column;
+	justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 4%;
+}
+
+
+.surfacetext hr {
+	border-width: 0.9px;
+  border-color: white;
+  width: 2%; 
+  margin-right: 1%; 
+  display: inline-block;
+}
+play: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  .row {
+    dispaly: block !important;
+  }
+
+body {
+  font-size: 16px;
+}
+
+p {
+	font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+.container {
+  padding: 20px;
+}
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.col-3,
+.col-4,
+.col-5,
+.col-6 {
+  padding: 10px;
+}
+
+
+/* Hide the headline container overflow on mobile devices */
+.headline-container {
+  overflow: hidden;
+}
+
+/* Adjust the position of the headline on mobile devices */
+h1 {
+  font-size: 80px;
+  padding: 10px;
+}
+
+/* Adjust the position of the open text on mobile devices */
+.open {
+  margin-top: 10%;
+}
+
+/* Adjust the size of the note and whitehr elements on mobile devices */
+.note,
+.whitehr {
+  font-size: 14px;
+}
+
+/* Tablet Styles */
+
+/* Adjust font sizes for headings on tablet devices */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+}
+
+/* Adjust margins and paddings for tablet devices */
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+
+  .row {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6 {
+    padding: 20px;
+  }
+}
+
+/* Desktop Styles */
+
+/* Adjust font sizes for headings on desktop devices */
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 140px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+}
+
+/* Adjust margins and paddings for desktop devices */
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 80px;
+  }
+
+  .row {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6 {
+    padding: 30px;
+  }
+}
+}
